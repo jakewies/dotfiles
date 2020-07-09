@@ -1,0 +1,12 @@
+# Manage .dotfiles repository
+# https://www.atlassian.com/git/tutorials/dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
+# Show all custom aliases
+alias show-aliases='cat $HOME/.aliases'
+
+# Colored 'ls'
+alias ls='ls -l --color'
+
+# Bundle zsh plugins via antibody
+alias update-antibody='antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zsh_plugins.sh'
