@@ -1,0 +1,5 @@
+[user]
+	name = Jake Wiesler
+	email = jakewiesler@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
