@@ -2,7 +2,7 @@
 # Note: This must be exported before the plugin is bundled
 export NVM_COMPLETION=true
 
-source ~/zsh/.zsh_plugins.sh
+source ~/.zsh_plugins.sh
 source ~/.aliases
 
 # DIRCOLORS
