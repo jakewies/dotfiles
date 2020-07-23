@@ -10,3 +10,15 @@ alias ls='ls -l --color'
 
 # Bundle zsh plugins via antibody
 alias update-antibody='antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zsh_plugins.sh'
+
+# Open file explorer
+alias explorer='explorer.exe .'
+
+# List out all globally installed npm packages
+alias list-npm-globals='npm list -g --depth=0'
+
+# Adds better handling for `rm` using trash-cli
+# https://github.com/sindresorhus/trash-cli
+# You can empty the trash using the empty-trash command
+# https://github.com/sindresorhus/empty-trash-cli
+alias rm='trash'
