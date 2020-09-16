@@ -3,3 +3,5 @@
 	email = jakewiesler@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
+[pull]
+	ff = only
